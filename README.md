@@ -1,1 +1,2 @@
-# javademoapp
+# JavaDemoApp
+Frontend Demo application
