@@ -135,7 +135,7 @@ resource "aws_instance" "main" {
   instance_type = "t2.micro"
   vpc_security_group_ids = [aws_security_group.ec2.id]
   subnet_id = aws_subnet.main.id
-  key_name               = "my_key"
+  key_name               = "dev-key"
 
   tags = {
     Name        = "main-ec2-${var.environment}-${count.index}"
